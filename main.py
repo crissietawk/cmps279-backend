@@ -5,7 +5,7 @@ recording, notes, analysis, and notifications
 """
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import api_router
+from app.router import api_router
 from app.db import get_connection
 import uvicorn
 
